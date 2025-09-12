@@ -20,10 +20,10 @@ books["large_thumbnail"] = np.where(
     books["large_thumbnail"],
 )
 
-# ✅ FIX 1: specify encoding for text loader
+# specify encoding for text loader
 raw_documents = TextLoader("tagged_description.txt", encoding="utf-8").load()
 
-# ✅ FIX 2: chunk_size must be > 0
+# chunk_size must be > 0
 text_splitter = CharacterTextSplitter(
     separator="\n",
     chunk_size=1000,
@@ -122,3 +122,4 @@ with gr.Blocks(theme=gr.themes.Glass()) as dashboard:
 
 if __name__ == "__main__":
     dashboard.launch()
+
