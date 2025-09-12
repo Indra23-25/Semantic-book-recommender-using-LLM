@@ -1,4 +1,5 @@
 # Semantic-book-recommender-using-LLM
+<img width="1616" height="837" alt="image" src="https://github.com/user-attachments/assets/f8c7b904-007d-4545-a8a4-42d0a9104035" />
 A Semantic Book Recommender with LLMs 
 This repo contains all of the code to complete the freeCodeCamp course, "Build a Semantic Book Recommender with LLMs – Full Course". There are five components to this tutorial:
 
